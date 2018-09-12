@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/add_item"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Agregar Dulce"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/delete_item"
+        android:icon="@android:drawable/ic_delete"
+        android:title="Borrar Dulce"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/List"
+        android:icon="@android:drawable/ic_menu_set_as"
+        android:title="Vista List"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/Grid"
+        android:icon="@android:drawable/ic_menu_always_landscape_portrait"
+        android:title="Vista Grid"
+        app:showAsAction="always" />
+
+
+</menu>
